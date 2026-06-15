@@ -5,13 +5,15 @@ I build robust, scalable, and automated data infrastructure that transforms raw 
 ---
 ## 🛠️  Technical Proficiencies
 
-### 🚀 Data Pipeline, Ingestion & Orchestration
-* **Automated Ingestion:** I implement scalable data ingestion workflows using **Airbyte** for managed ELT pipelines alongside custom Python-based ingestion mechanisms.
-* **Orchestration & Dependency Management:** I utilize **Apache Airflow** to design, schedule, and monitor complex Directed Acyclic Graphs (DAGs), ensuring reliable, fault-tolerant workflow automation and task dependency handling.
+#### 1. Data Pipeline Development (ETL/ELT)
+* **Ingestion & Transformation:** Building automated pipelines to extract raw data from diverse sources (APIs, transactional databases, web-scraping scripts) and transforming it into clean, structured formats.
+* **Orchestration & Automation:** Utilizing tools like **Apache Airflow** to schedule, monitor, and manage complex task dependencies, ensuring high availability and robust error handling.
+* **Batch & Stream Processing:** Processing high-volume data efficiently using frameworks like **Python, Pandas, and PySpark/Spark**.
 
-### 🏗️ Data Transformation & Modelling
-* **Distributed Processing & Transformation:** I leverage **Apache Spark** for high-throughput distributed data processing and **dbt** for modular, version-controlled SQL transformations within the warehouse.
-* **Data Modelling:** I apply structural data modelling methodologies (such as Star Schemas and Snowflake Schemas) to turn raw data lakes into clean, high-performance, and intuitive analytical layers.
+#### 2. Database Management & Warehousing
+* **Storage Architecture:** Designing clean schemas and data models for both structured **Data Warehouses** (e.g., Snowflake, BigQuery) and unstructured **Data Lakes**.
+* **Database Optimization:** Managing, querying, and optimizing relational databases like **PostgreSQL** to ensure low-latency analytical queries.
+* **Data Quality & Governance:** Implementing strict validation constraints, data modeling standards (via **dbt**), and tracing data lineage to maintain a single source of truth.
 ---
 ## 🌟 Collaborations & Connect
 I am keen to collaborate on projects that focus on **scalable data engineering solutions**, **robust automation pipelines**, and **modern data stack integrations**. If you are looking for someone dedicated to data integrity, pipeline optimization, and building resilient data architectures, let’s build together!
